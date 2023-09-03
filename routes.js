@@ -42,10 +42,6 @@ const requestHandler = (request, response) => {
   }
 };
 
-// module.exports = requestHandler;
-
-// (exports.headers = requestHandler), (exports.someText = "Hard Coded Text");
-
 module.exports = {
   headers: requestHandler,
   someText: "Hard Coded Text",
